@@ -53,7 +53,9 @@
 		<!--center-->
 	</section>
 	<!--topo-->
-	<div class="circle"><i class="fas fa-angle-down"></i></div>
+	<div class="between-top">
+		<div class="circle"><i class="fas fa-angle-down"></i></div>
+	</div>
 
 	<section class="clientes-slider">
 
@@ -107,7 +109,6 @@
 			<!--icons-diferenciais-->
 
 		</div>
-
 	</section>
 
 	<section class="sobre-time">
@@ -133,26 +134,27 @@
 			<div class="depoimentos-box">
 				<div class="depoimento-single">
 					<p>"Aliqua quis ut duis eiusmod laboris aliquip elit consequat incididunt occaecat minim in consequat ut id culpa veniam. Ut mollit culpa laboris reprehenderit esse id anim anim quis in sed laborum irure mollit culpa."</p>
-					<p>Fernando Veríssimo</p>
-					<img src="images/autor.jpg" />
+					<p>Homem de Ferro</p>
+					<img src="images/image01.png" />
 				</div>
 				<!--depoimento-single-->
 				<div class="depoimento-single">
 					<p>"Aliqua quis ut duis eiusmod laboris aliquip elit consequat incididunt occaecat minim in consequat ut id culpa veniam. Ut mollit culpa laboris reprehenderit esse id anim anim quis in sed laborum irure mollit culpa."</p>
-					<p>Maria Eduarda</p>
-					<img src="images/autor.jpg" />
+					<p>Tony Stark</p>
+					<img src="images/image02.png" />
 				</div>
 				<!--depoimento-single-->
 				<div class="depoimento-single">
 					<p>"Aliqua quis ut duis eiusmod laboris aliquip elit consequat incididunt occaecat minim in consequat ut id culpa veniam. Ut mollit culpa laboris reprehenderit esse id anim anim quis in sed laborum irure mollit culpa."</p>
 					<p>Elon Musk</p>
-					<img src="images/autor.jpg" />
+					<img src="images/image03.png" />
 				</div>
 				<!--depoimento-single-->
 			</div>
 			<!--depoimentos-box-->
 		</div>
 	</section>
+	<div class="between-footer"></div>
 
 
 	<footer>
