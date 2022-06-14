@@ -18,7 +18,7 @@
 	<section class="topo">
 		<div class="center">
 			<header>
-				<div class="logo"><img src="images/logo.png" /></div>
+				<div class="logo"><img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/logo.png'); ?>" /></div>
 				<!--logo-->
 			</header>
 			<ul class="menu-desktop">
@@ -45,7 +45,7 @@
 			</div>
 			<!--w50-->
 			<div class="w50 time-imagem">
-				<img src="images/equipe.png" />
+				<img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/equipe.png'); ?>" />
 			</div>
 			<!--w50-->
 			<div class="clear"></div>
@@ -61,16 +61,14 @@
 
 		<div class="center">
 			<div style="max-width: 700px;margin: 0 auto;overflow: hidden;" class="slider-container">
-				<img src="images/amazon.jpg" />
-				<img src="images/costco.jpg" />
-				<img src="images/dominos.jpg" />
-				<img src="images/uber.jpg" />
-				<img src="images/walmart.jpg" />
-				<img src="images/amazon.jpg" />
-				<img src="images/costco.jpg" />
-				<img src="images/dominos.jpg" />
-				<img src="images/uber.jpg" />
-				<img src="images/walmart.jpg" />
+				<img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/amazon.jpg'); ?>" />
+				<img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/dominos.jpg'); ?>" />
+				<img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/uber.jpg'); ?>" />
+				<img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/walmart.jpg'); ?>" />
+				<img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/amazon.jpg'); ?>" />
+				<img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/dominos.jpg'); ?>" />
+				<img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/uber.jpg'); ?>" />
+				<img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/walmart.jpg'); ?>" />
 			</div>
 		</div>
 		<!--center-->
@@ -85,21 +83,21 @@
 			<div class="icons-diferenciais">
 
 				<div class="box-single-diferenciais">
-					<img src="images/icon1.png" />
+					<img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/icon1.png'); ?>" />
 					<h3>Ambientes Mobile</h3>
 					<p>Utilize o seu sistema em qualquer lugar, de qualquer lugar.</p>
 				</div>
 				<!--box-single-diferenciais-->
 
 				<div class="box-single-diferenciais">
-					<img src="images/icon2.png" />
+					<img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/icon2.png'); ?>" />
 					<h3>Ambientes Desktop</h3>
 					<p>Para uma apresentação mais profissional, apresente seu sistema em um display maior.</p>
 				</div>
 				<!--box-single-diferenciais-->
 
 				<div class="box-single-diferenciais">
-					<img src="images/icon3.png" />
+					<img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/icon3.png'); ?>" />
 					<h3>Ambientes Mobile</h3>
 					<p>Garanta que toda sua comunicação esteja alinhada com seu propósito, cada palavra conta.</p>
 				</div>
@@ -122,7 +120,7 @@
 			</div>
 			<!--w50-->
 			<div class="w50 img-time">
-				<img src="images/time.png" />
+				<img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/time.png'); ?>" />
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -135,19 +133,19 @@
 				<div class="depoimento-single">
 					<p>"Aliqua quis ut duis eiusmod laboris aliquip elit consequat incididunt occaecat minim in consequat ut id culpa veniam. Ut mollit culpa laboris reprehenderit esse id anim anim quis in sed laborum irure mollit culpa."</p>
 					<p>Homem de Ferro</p>
-					<img src="images/image01.png" />
+					<img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/image01.png'); ?>" />
 				</div>
 				<!--depoimento-single-->
 				<div class="depoimento-single">
 					<p>"Aliqua quis ut duis eiusmod laboris aliquip elit consequat incididunt occaecat minim in consequat ut id culpa veniam. Ut mollit culpa laboris reprehenderit esse id anim anim quis in sed laborum irure mollit culpa."</p>
 					<p>Tony Stark</p>
-					<img src="images/image02.png" />
+					<img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/image02.png'); ?>" />
 				</div>
 				<!--depoimento-single-->
 				<div class="depoimento-single">
 					<p>"Aliqua quis ut duis eiusmod laboris aliquip elit consequat incididunt occaecat minim in consequat ut id culpa veniam. Ut mollit culpa laboris reprehenderit esse id anim anim quis in sed laborum irure mollit culpa."</p>
 					<p>Elon Musk</p>
-					<img src="images/image03.png" />
+					<img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/image03.png'); ?>" />
 				</div>
 				<!--depoimento-single-->
 			</div>
@@ -182,7 +180,7 @@
 				<a href="">FAQ</a>
 			</div>
 			<div style="width: 40%;text-align: right;" class="col-footer">
-				<img src="images/logo-footer.png" />
+				<img src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/images/logo-footer.png'); ?>" />
 			</div>
 		</div>
 	</footer>
