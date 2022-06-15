@@ -40,6 +40,7 @@
 			<br />
 			<div class="w50 time-descricao">
 				<h2>Melhore a comunicação com seu cliente e time.</h2>
+				<input type="text" name="auto-texto" disabled>
 				<p>Consultoria especializada em startups, empresas, principalmente, pessoas.</p>
 				<a target="_blank" href="https://linkedin.com/in/luan-kisaki-lukisoft">Ver demonstração</a>
 			</div>
@@ -187,6 +188,7 @@
 
 	<script src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/js/jquery.js'); ?>"></script>
 	<script src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/js/slick.min.js'); ?>"></script>
+	<script src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/js/autowrite.js'); ?>"></script>
 	<script type="text/javascript">
 		$('section.clientes-slider .slider-container').slick({
 			dots: true,
