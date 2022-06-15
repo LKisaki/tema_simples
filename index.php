@@ -185,8 +185,8 @@
 		</div>
 	</footer>
 
-	<script src="js/jquery.js"></script>
-	<script src="js/slick.min.js"></script>
+	<script src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/js/jquery.js'); ?>"></script>
+	<script src="<?php echo get_theme_root_uri('tema_wordpress', 'themes/tema_wordpress/js/slick.min.js'); ?>"></script>
 	<script type="text/javascript">
 		$('section.clientes-slider .slider-container').slick({
 			dots: true,
